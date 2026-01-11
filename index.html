@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olfatendo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- UA PARSER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/1.0.37/ua-parser.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="bg-gradient-to-br from-amber-50 via-white to-sky-50 min-h-screen flex items-center justify-center">
+    <div class="max-w-3xl w-full px-6">
+        <div class="bg-white rounded-3xl shadow-xl p-10 text-center relative ">
+
+            <!-- Decorative sparkles -->
+            <div class="absolute -top-6 -left-6 w-24 h-24 bg-amber-100 rounded-full blur-2xl"></div>
+            <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-sky-100 rounded-full blur-2xl"></div>
+
+            <!-- Mascot image -->
+            <img src="images/lola-503.png" alt="Lola en mantenimiento" class="mx-auto w-56 drop-shadow-lg" id="tummy" />
+
+            <h1 class="mt-6 text-5xl font-extrabold text-amber-600">Lolita's Project</h1>
+            <p class="mt-2 text-xl font-semibold text-gray-700">¡Hola! Soy Lolita 🐾. Parece que aún no están listos
+                para estar juntos, Pero espero estén preparandose para construir nuestro hogar.</p>
+
+            <p class="mt-4 text-gray-500 max-w-xl mx-auto">
+                Mientras tanto, estoy trabajando arduamente para traerte la mejor experiencia posible.
+                <br class="hidden sm:block" />
+                Cuando esté lista, <a href="#" class="text-gray-700 underline hover:text-amber-600"
+                    onclick="notifyMe()">te avisaré</a>. Mientras tanto... <b>Toca mi pancita 3
+                    veces seguidas</b>, amo eso!
+            </p>
+
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+                <!-- <a href="/"
+                                class="inline-flex items-center justify-center rounded-xl bg-amber-500 px-6 py-3 font-semibold text-white shadow hover:bg-amber-600 transition">
+                                Volver al inicio
+                            </a> -->
+                <button onclick="notifyMe()"
+                    class="inline-flex items-center justify-center rounded-xl bg-amber-500 px-6 py-3 font-semibold text-white shadow hover:bg-amber-600 transition">
+                    ¿Te busco cuando esté listo?
+                </button>
+            </div>
+
+            <p class="mt-8 text-sm text-gray-400">
+                Seré el mejor <a class="text-gray-700 underline hover:text-amber-600"
+                    href="https://www.comaporter.com/los-easter-egg-tecnologicos-mas-famosos/" target="_blank">Easter
+                    Egg</a> que hayas visto.
+            </p>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+    <!-- UA PARSER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/1.0.37/ua-parser.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+
+    </script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
